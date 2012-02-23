@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40DE301D1477C753008FD695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DE301C1477C753008FD695 /* Foundation.framework */; };
+		40DE30311477C786008FD695 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DE302E1477C786008FD695 /* GDataXMLNode.h */; };
+		40DE30321477C786008FD695 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE302F1477C786008FD695 /* GDataXMLNode.m */; };
+		40DE30331477C786008FD695 /* GDataXML-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 40DE30301477C786008FD695 /* GDataXML-Prefix.pch */; };
+		40DE30351477C7A9008FD695 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DE30341477C7A9008FD695 /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40DE30191477C753008FD695 /* libGDataXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGDataXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DE301C1477C753008FD695 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40DE302E1477C786008FD695 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		40DE302F1477C786008FD695 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		40DE30301477C786008FD695 /* GDataXML-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GDataXML-Prefix.pch"; sourceTree = "<group>"; };
+		40DE30341477C7A9008FD695 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40DE30161477C753008FD695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DE30351477C7A9008FD695 /* libxml2.dylib in Frameworks */,
+				40DE301D1477C753008FD695 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40DE300E1477C753008FD695 = {
+			isa = PBXGroup;
+			children = (
+				40DE302D1477C786008FD695 /* Class */,
+				40DE30301477C786008FD695 /* GDataXML-Prefix.pch */,
+				40DE301B1477C753008FD695 /* Frameworks */,
+				40DE301A1477C753008FD695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40DE301A1477C753008FD695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DE30191477C753008FD695 /* libGDataXML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40DE301B1477C753008FD695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40DE30341477C7A9008FD695 /* libxml2.dylib */,
+				40DE301C1477C753008FD695 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40DE302D1477C786008FD695 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				40DE302E1477C786008FD695 /* GDataXMLNode.h */,
+				40DE302F1477C786008FD695 /* GDataXMLNode.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40DE30171477C753008FD695 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DE30311477C786008FD695 /* GDataXMLNode.h in Headers */,
+				40DE30331477C786008FD695 /* GDataXML-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40DE30181477C753008FD695 /* GDataXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DE30261477C753008FD695 /* Build configuration list for PBXNativeTarget "GDataXML" */;
+			buildPhases = (
+				40DE30151477C753008FD695 /* Sources */,
+				40DE30161477C753008FD695 /* Frameworks */,
+				40DE30171477C753008FD695 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDataXML;
+			productName = GDataXML;
+			productReference = 40DE30191477C753008FD695 /* libGDataXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40DE30101477C753008FD695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = datou;
+			};
+			buildConfigurationList = 40DE30131477C753008FD695 /* Build configuration list for PBXProject "GDataXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40DE300E1477C753008FD695;
+			productRefGroup = 40DE301A1477C753008FD695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DE30181477C753008FD695 /* GDataXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DE30151477C753008FD695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DE30321477C786008FD695 /* GDataXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40DE30241477C753008FD695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40DE30251477C753008FD695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DE30271477C753008FD695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GDataXML.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDataXML-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40DE30281477C753008FD695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GDataXML.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDataXML-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40DE30131477C753008FD695 /* Build configuration list for PBXProject "GDataXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DE30241477C753008FD695 /* Debug */,
+				40DE30251477C753008FD695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DE30261477C753008FD695 /* Build configuration list for PBXNativeTarget "GDataXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DE30271477C753008FD695 /* Debug */,
+				40DE30281477C753008FD695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40DE30101477C753008FD695 /* Project object */;
+}

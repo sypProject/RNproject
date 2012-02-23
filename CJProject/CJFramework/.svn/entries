@@ -1,0 +1,40 @@
+10
+
+dir
+24574
+svn://192.168.3.91/CJProject/trunk/CJFramework
+svn://192.168.3.91
+
+
+
+2011-11-22T04:46:29.922894Z
+24573
+lys
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+002d7bf1-3d9d-4157-879e-81ace4cad9c3
+
+CJFramework.xcodeproj
+dir
+
+CJFrameworkTests
+dir
+
+Class
+dir
+
+third_party
+dir
+

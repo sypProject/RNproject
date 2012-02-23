@@ -1,0 +1,40 @@
+10
+
+dir
+24574
+svn://192.168.3.91/CJProject/trunk/CJFramework/third_party
+svn://192.168.3.91
+
+
+
+2011-11-21T00:11:49.437965Z
+24528
+lys
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+002d7bf1-3d9d-4157-879e-81ace4cad9c3
+
+ASIHttpRequest
+dir
+
+GDataXML
+dir
+
+ProtocolBuffers
+dir
+
+SBJson
+dir
+

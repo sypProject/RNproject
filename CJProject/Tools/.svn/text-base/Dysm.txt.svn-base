@@ -1,0 +1,9 @@
+
+
+cd $PROJ_PATH$/build/Release-iphoneos/TestEditor.app.dSYM/
+cd Contents/Resources/DWARF
+gdb TestEditor
+gdb>info line *0x000252b9
+Line 333 of "~/IbisMail/Classes/Models/PopClient.m";
+starts at address 0x2a386 <-[PopClient retrieve:]+86> and
+ends at 0x2a390 <-[PopClient retrieve:]+96>

@@ -1,0 +1,67 @@
+10
+
+dir
+24574
+svn://192.168.3.91/CJProject/trunk/CJFramework/Class
+svn://192.168.3.91
+
+
+
+2011-11-22T04:46:29.922894Z
+24573
+lys
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+002d7bf1-3d9d-4157-879e-81ace4cad9c3
+
+CJDB
+dir
+
+CJDefine
+dir
+
+CJExtend
+dir
+
+CJFile
+dir
+
+CJLog
+dir
+
+CJNet
+dir
+
+CJPathManager
+dir
+
+CJSetting
+dir
+
+CJSingleton
+dir
+
+CJTimer
+dir
+
+CJUtility
+dir
+
+CJViewStack
+dir
+
+CJXMLParser
+dir
+

@@ -1,0 +1,71 @@
+10
+
+dir
+24574
+svn://192.168.3.91/CJProject/trunk/CJFramework/third_party/ASIHttpRequest
+svn://192.168.3.91
+
+
+
+2011-11-20T20:18:11.467546Z
+24520
+lys
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+002d7bf1-3d9d-4157-879e-81ace4cad9c3
+
+ASIHttpRequest-Prefix.pch
+file
+
+
+
+
+2011-11-21T01:57:06.000000Z
+bbd7137cd62e84c0767628437d2417f9
+2011-11-20T20:09:21.036076Z
+24507
+lys
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+169
+
+ASIHttpRequest.xcodeproj
+dir
+
+Classes
+dir
+
+External
+dir
+

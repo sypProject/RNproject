@@ -1,0 +1,34 @@
+10
+
+dir
+24574
+svn://192.168.3.91/CJProject/trunk/CJFramework/third_party/ASIHttpRequest/External
+svn://192.168.3.91
+
+
+
+2011-11-20T20:09:21.036076Z
+24507
+lys
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+002d7bf1-3d9d-4157-879e-81ace4cad9c3
+
+GHUnit
+dir
+
+Reachability
+dir
+
